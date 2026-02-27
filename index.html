@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pradeep-Portfolio 2025</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Dancing+Script:wght@700&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ══════════════ NAVBAR ══════════════ -->
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+            <span class="navbar-brand">Pradeep</span>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto gap-1" id="nav-links">
+                    <li class="nav-item"><a class="nav-link active" href="#page-home"><i
+                                class="bi bi-house-fill me-1"></i>Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#page-about"><i
+                                class="bi bi-person-fill me-1"></i>About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#page-projects"><i
+                                class="bi bi-code-slash me-1"></i>Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.pdf" target="_blank"><i
+                                class="bi bi-file-earmark-pdf-fill me-1"></i>Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#page-contact"><i
+                                class="bi bi-envelope-fill me-1"></i>Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ══════════════ HOME ══════════════ -->
+    <section id="page-home" class="page-section">
+        <div class="hero">
+            <img src="its.me.jpeg" alt="Description" class="rounded-circle" height="300px" width="300px">
+            <span class="hero-label">Portfolio · 2025</span>
+            <h1><span>Pradeep</span></h1>
+            <span class="hero-sig">Java Full Stack Developer</span>
+
+            <div class="contact-bar">
+                <span><i class="bi bi-telephone-fill"></i>+91 63833 38515</span>
+                <span class="dot"></span>
+                <a href="mailto:pradeepponnusamy2006@gmail.com"><i
+                        class="bi bi-envelope-fill"></i>pradeepponnusamy2006@gmail.com</a>
+                <span class="dot"></span>
+                <a href="#"><i class="bi bi-linkedin"></i>LinkedIn</a>
+                <span class="dot"></span>
+                <a href="#"><i class="bi bi-github"></i>GitHub</a>
+                <div class="hero-btns">
+                    <button class="btn-lime" onclick="navigateTo('projects')">View Projects</button>
+                    <a href="resume.pdf" target="_blank" class="btn-outline-lime"
+                        style="text-decoration: none; display: inline-flex; align-items: center; justify-content: center;">View
+                        Resume</a>
+                    <button class="btn-outline-lime" onclick="navigateTo('contact')">Hire Me</button>
+                </div>
+            </div>
+    </section>
+
+    <!-- ══════════════ ABOUT ══════════════ -->
+    <section id="page-about" class="page-section">
+        <div class="container py-5">
+
+            <!-- Objective -->
+            <div class="sec-hd d-flex align-items-center gap-4">
+                <div class="sec-num">01</div>
+                <div>
+                    <div class="sec-tag">Who I Am</div>
+                    <div class="sec-title">Objective</div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="obj-card mb-5">
+                I am a young and passionate student with strong organizational skills and a responsible attitude, eager
+                to
+                gain my first professional experience in the IT field. I aim to apply my academic knowledge in a
+                real-world
+                environment while continuously learning and improving my technical skills. I am highly interested in
+                teamwork, problem-solving, and exploring emerging technologies. I have successfully completed a virtual
+                internship at <strong>Java Full Stack Developer</strong> concept. I am motivated to contribute
+                effectively
+                and grow as a technology professional.
+            </div>
+
+            <!-- Education -->
+            <div class="sec-hd d-flex align-items-center gap-4">
+                <div class="sec-num">02</div>
+                <div>
+                    <div class="sec-tag">Academic Background</div>
+                    <div class="sec-title">Education</div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="d-flex flex-column gap-3 mb-5">
+                <div class="edu-card">
+                    <div>
+                        <div class="edu-inst">K S Rangasamy College of Technology</div>
+                        <div class="edu-degree">B.Tech — Information Technology</div>
+                        <div class="edu-meta">CGPA: 7.2%</div>
+                    </div>
+                    <div class="edu-year">2023 – 2027</div>
+                </div>
+                <div class="edu-card">
+                    <div>
+                        <div class="edu-inst">Sri Vidhya Bharathi Mat.Hr.Sec.School</div>
+                        <div class="edu-degree">HSC</div>
+                        <div class="edu-meta">Score: 71%</div>
+                    </div>
+                    <div class="edu-year">2021 – 2023</div>
+                </div>
+                <div class="edu-card">
+                    <div>
+                        <div class="edu-inst">Sri Vidhya Bharathi Mat.Hr.Sec.School</div>
+                        <div class="edu-degree">SSLC</div>
+                        <div class="edu-meta">Score: 100%</div>
+                    </div>
+                    <div class="edu-year">2019 – 2021</div>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="sec-hd d-flex align-items-center gap-4">
+                <div class="sec-num">03</div>
+                <div>
+                    <div class="sec-tag">Capabilities</div>
+                    <div class="sec-title">Technical Skills</div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="skills-grid mb-5">
+                <div class="skill-item"><span class="skill-dot"></span>C</div>
+                <div class="skill-item"><span class="skill-dot"></span>Java</div>
+                <div class="skill-item"><span class="skill-dot"></span>Python</div>
+                <div class="skill-item"><span class="skill-dot"></span>HTML &amp; CSS</div>
+                <div class="skill-item"><span class="skill-dot"></span>SQL</div>
+                <div class="skill-item"><span class="skill-dot"></span>Web Development</div>
+                <div class="skill-item"><span class="skill-dot"></span>Problem Solving</div>
+                <div class="skill-item"><span class="skill-dot"></span>Teamwork</div>
+                <div class="skill-item"><span class="skill-dot"></span>Communication</div>
+                <div class="skill-item"><span class="skill-dot"></span>Time Management</div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ══════════════ PROJECTS ══════════════ -->
+    <section id="page-projects" class="page-section">
+        <div class="container py-5">
+
+            <div class="sec-hd d-flex align-items-center gap-4">
+                <div class="sec-num">04</div>
+                <div>
+                    <div class="sec-tag">What I Built</div>
+                    <div class="sec-title">Projects</div>
+                </div>
+            </div>
+            <div class="divider"></div>
+
+            <div class="row g-4 mb-5">
+                <!-- Project 1 -->
+                <div class="col-md-6">
+                    <div class="proj-card">
+                        <div class="proj-name">Smart <span>Attendance</span> System</div>
+                        <div class="proj-desc">
+                            Developed an AI-powered attendance management system using Python, OpenCV, and GPS-based
+                            validation.
+                            Implemented face recognition to auto-mark attendance and prevent proxy entries.
+                            Designed a secure Flask backend with a responsive web interface for real-time reporting.
+                        </div>
+                        <div class="tag-row">
+                            <span class="tag">Python</span>
+                            <span class="tag">OpenCV</span>
+                            <span class="tag">Flask</span>
+                            <span class="tag">GPS</span>
+                            <span class="tag">Face Recognition</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 (placeholder) -->
+                <div class="col-md-6">
+                    <div class="proj-card">
+                        <div class="proj-name">Personal <span>Portfolio</span> Website</div>
+                        <div class="proj-desc">
+                            Designed and developed a responsive personal portfolio website using HTML, Bootstrap 5, and
+                            custom CSS
+                            inspired by premium Behance-style dark design with neon lime-green accents and animated
+                            sections.
+                        </div>
+                        <div class="tag-row">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">Bootstrap</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Achievements -->
+            <div class="sec-hd d-flex align-items-center gap-4">
+                <div class="sec-num">05</div>
+                <div>
+                    <div class="sec-tag">Recognition</div>
+                    <div class="sec-title">Achievements &amp; Certifications</div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="d-flex flex-column gap-3 mb-5">
+                <div class="ach-item">
+                    <span class="ach-icon"><i class="bi bi-patch-check-fill"></i></span>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <span>Virtual Internship – Java Full Stack Developer</span>
+                        <a href="internship.pdf" target="_blank" class="btn-outline-lime px-2 py-1"
+                            style="font-size: 10px; text-decoration: none;">View Certificate</a>
+                    </div>
+                </div>
+                <div class="ach-item">
+                    <span class="ach-icon"><i class="bi bi-check-lg"></i></span>
+                    NPTEL – Privacy and Security in Online Social Media
+                </div>
+                <div class="ach-item">
+                    <span class="ach-icon"><i class="bi bi-check-lg"></i></span>
+                    Microsoft – Power BI Certification
+                </div>
+                <div class="ach-item">
+                    <span class="ach-icon"><i class="bi bi-check-lg"></i></span>
+                    MSME Patent Applied
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ══════════════ CONTACT ══════════════ -->
+    <section id="page-contact" class="page-section">
+        <div class="container py-5">
+
+            <div class="sec-hd d-flex align-items-center gap-4">
+                <div class="sec-num">06</div>
+                <div>
+                    <div class="sec-tag">Get In Touch</div>
+                    <div class="sec-title">Contact Me</div>
+                </div>
+            </div>
+            <div class="divider"></div>
+
+            <div class="row g-4">
+                <!-- Info Cards -->
+                <div class="col-lg-5">
+                    <div class="d-flex flex-column gap-3">
+                        <div class="contact-info-card">
+                            <div class="ci-icon"><i class="bi bi-telephone-fill"></i></div>
+                            <div>
+                                <div class="ci-label">Phone</div>
+                                <div class="ci-val">+91 63833 38515</div>
+                            </div>
+                        </div>
+                        <div class="contact-info-card">
+                            <div class="ci-icon"><i class="bi bi-envelope-fill"></i></div>
+                            <div>
+                                <div class="ci-label">Email</div>
+                                <div class="ci-val"><a
+                                        href="mailto:pradeepponnusamy2006@gmail.com">pradeepponnusamy2006@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-info-card">
+                            <div class="ci-icon"><i class="bi bi-linkedin"></i></div>
+                            <div>
+                                <div class="ci-label">LinkedIn</div>
+                                <div class="ci-val"><a href="#">linkedin.com/in/pradeep</a></div>
+                            </div>
+                        </div>
+                        <div class="contact-info-card">
+                            <div class="ci-icon"><i class="bi bi-github"></i></div>
+                            <div>
+                                <div class="ci-label">GitHub</div>
+                                <div class="ci-val"><a href="#">github.com/pradeep</a></div>
+                            </div>
+                        </div>
+                        <div class="contact-info-card">
+                            <div class="ci-icon"><i class="bi bi-geo-alt-fill"></i></div>
+                            <div>
+                                <div class="ci-label">College</div>
+                                <div class="ci-val">K S Rangasamy College of Technology</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form -->
+                <div class="col-lg-7">
+                    <form class="contact-form" id="contactForm" onsubmit="sendMessage(event)">
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <label>Your Name</label>
+                                <input type="text" class="fc" placeholder="Pradeep" required />
+                            </div>
+                            <div class="col-sm-6">
+                                <label>Email Address</label>
+                                <input type="email" class="fc" placeholder="pradeepponnusamy2006@gmail.com
+                                " required />
+                            </div>
+                            <div class="col-12">
+                                <label>Subject</label>
+                                <input type="text" class="fc" placeholder="Project Inquiry" required />
+                            </div>
+                            <div class="col-12">
+                                <label>Message</label>
+                                <textarea class="fc" placeholder="Tell me about your project or opportunity..."
+                                    required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn-lime w-100" style="font-size:13px;padding:14px;">
+                                    <i class="bi bi-send-fill me-2"></i>Send Message
+                                </button>
+                            </div>
+                        </div>
+                        <div class="sent-msg" id="sentMsg" style="display:none;">
+                            <i class="bi bi-check-circle-fill" style="font-size:18px;"></i>
+                            Message sent successfully! I'll get back to you soon.
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ══════════════ GLOBAL FOOTER ══════════════ -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+
+            <!-- Brand -->
+            <div class="footer-brand">
+                <div class="fb-name"><span>Pradeep</span> P</div>
+                <div class="fb-role">Java Full Stack Developer</div>
+                <div class="fb-desc">
+                    Passionate IT student crafting clean code and creative solutions.
+                    Open to internships, collaborations, and new opportunities.
+                </div>
+                <div class="footer-status">
+                    <span class="status-dot"></span>
+                    Available for hire · Responds quickly
+                </div>
+            </div>
+
+            <!-- Quick Nav -->
+            <div class="footer-links">
+                <h6>Navigation</h6>
+                <ul>
+                    <li><span onclick="navigateTo('home')"><i class="bi bi-house-fill"></i> Home</span></li>
+                    <li><span onclick="navigateTo('about')"><i class="bi bi-person-fill"></i> About</span></li>
+                    <li><span onclick="navigateTo('projects')"><i class="bi bi-code-slash"></i> Projects</span></li>
+                    <li><span onclick="navigateTo('contact')"><i class="bi bi-envelope-fill"></i> Contact</span></li>
+                </ul>
+            </div>
+
+            <!-- Social -->
+            <div class="footer-social">
+                <h6>Connect</h6>
+                <div class="social-icons">
+                    <a href="#" class="social-icon" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="social-icon" title="GitHub"><i class="bi bi-github"></i></a>
+                    <a href="mailto:pradeepponnusamy2006@gmail.com" class="social-icon" title="Email"><i
+                            class="bi bi-envelope-fill"></i></a>
+                    <a href="#" class="social-icon" title="Phone"><i class="bi bi-telephone-fill"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 <span>Pradeep P</span> · All rights reserved</p>
+            <span class="footer-badge">Portfolio · 2025</span>
+        </div>
+    </footer>
+
+    <!-- ══════════════ CHAT WIDGET ══════════════ -->
+    <button id="chat-btn" onclick="toggleChat()" title="Chat with me">
+        <i class="bi bi-chat-dots-fill"></i>
+        <span class="chat-badge"></span>
+    </button>
+
+    <div id="chat-box">
+        <div class="chat-header">
+            <div class="ch-info">
+                <div class="chat-avatar"><i class="bi bi-person-fill"></i></div>
+                <div>
+                    <div class="chat-name">Pradeep P</div>
+                    <div class="chat-status">🟢 Online · Replies instantly</div>
+                </div>
+            </div>
+            <button class="chat-close" onclick="toggleChat()">×</button>
+        </div>
+
+        <div id="chat-messages"></div>
+
+        <div class="quick-replies" id="quick-replies">
+            <button class="qr-btn" onclick="quickReply('👋 Who are you?')">👋 Who are you?</button>
+            <button class="qr-btn" onclick="quickReply('💼 Your skills?')">💼 Skills</button>
+            <button class="qr-btn" onclick="quickReply('📬 How to contact?')">📬 Contact</button>
+            <button class="qr-btn" onclick="quickReply('🚀 Your projects?')">🚀 Projects</button>
+        </div>
+
+        <div class="chat-footer">
+            <input id="chat-input" type="text" placeholder="Type a message..."
+                onkeydown="if(event.key==='Enter')sendChat()" />
+            <button id="chat-send" onclick="sendChat()"><i class="bi bi-send-fill"></i></button>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
